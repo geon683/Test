@@ -1,27 +1,41 @@
-﻿Build started 4/21/2012 2:28:17 PM.
+﻿Build started 4/21/2012 2:57:50 PM.
      1>Project "C:\Dylius Files\Test\test\test\test.vcxproj" on node 2 (build target(s)).
-     1>PrepareForBuild:
-         Creating directory "C:\Dylius Files\Test\test\Debug\".
-       InitializeBuildStatus:
+     1>InitializeBuildStatus:
          Creating "Debug\test.unsuccessfulbuild" because "AlwaysCreate" was specified.
        ClCompile:
          c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
          main.cpp
-     1>c:\dylius files\test\test\test\main.cpp(221): warning C4551: function call missing argument list
-     1>c:\dylius files\test\test\test\main.cpp(236): warning C4551: function call missing argument list
-     1>c:\dylius files\test\test\test\main.cpp(251): warning C4551: function call missing argument list
-     1>c:\dylius files\test\test\test\main.cpp(287): warning C4551: function call missing argument list
-     1>c:\dylius files\test\test\test\main.cpp(292): warning C4551: function call missing argument list
-     1>c:\dylius files\test\test\test\main.cpp(309): warning C4551: function call missing argument list
-     1>c:\dylius files\test\test\test\main.cpp(325): warning C4551: function call missing argument list
-     1>c:\dylius files\test\test\test\main.cpp(352): warning C4551: function call missing argument list
-     1>c:\dylius files\test\test\test\main.cpp(394): warning C4551: function call missing argument list
-     1>c:\dylius files\test\test\test\main.cpp(414): warning C4551: function call missing argument list
-     1>c:\dylius files\test\test\test\main.cpp(427): warning C4551: function call missing argument list
-     1>c:\dylius files\test\test\test\main.cpp(439): warning C4551: function call missing argument list
-     1>c:\dylius files\test\test\test\main.cpp(456): warning C4551: function call missing argument list
+     1>c:\dylius files\test\test\test\main.cpp(452): warning C4551: function call missing argument list
+     1>c:\dylius files\test\test\test\main.cpp(467): warning C4551: function call missing argument list
+     1>c:\dylius files\test\test\test\main.cpp(482): warning C4551: function call missing argument list
+     1>c:\dylius files\test\test\test\main.cpp(517): warning C4551: function call missing argument list
+     1>c:\dylius files\test\test\test\main.cpp(522): warning C4551: function call missing argument list
+     1>c:\dylius files\test\test\test\main.cpp(539): warning C4551: function call missing argument list
+     1>c:\dylius files\test\test\test\main.cpp(553): warning C4551: function call missing argument list
+     1>c:\dylius files\test\test\test\main.cpp(574): warning C4551: function call missing argument list
+     1>c:\dylius files\test\test\test\main.cpp(616): warning C4551: function call missing argument list
+     1>c:\dylius files\test\test\test\main.cpp(651): warning C4551: function call missing argument list
+     1>c:\dylius files\test\test\test\main.cpp(685): warning C4551: function call missing argument list
+     1>c:\dylius files\test\test\test\main.cpp(721): warning C4551: function call missing argument list
+     1>c:\dylius files\test\test\test\main.cpp(756): warning C4551: function call missing argument list
+     1>c:\dylius files\test\test\test\main.cpp(791): warning C4551: function call missing argument list
+     1>c:\dylius files\test\test\test\main.cpp(826): warning C4551: function call missing argument list
+     1>c:\dylius files\test\test\test\main.cpp(861): warning C4551: function call missing argument list
+     1>c:\dylius files\test\test\test\main.cpp(896): warning C4551: function call missing argument list
+     1>c:\dylius files\test\test\test\main.cpp(1160): warning C4551: function call missing argument list
+     1>c:\dylius files\test\test\test\main.cpp(1172): warning C4551: function call missing argument list
+     1>c:\dylius files\test\test\test\main.cpp(1193): warning C4551: function call missing argument list
+     1>c:\dylius files\test\test\test\main.cpp(658): warning C4715: 'ClawMachine::prize' : not all control paths return a value
+     1>c:\dylius files\test\test\test\main.cpp(692): warning C4715: 'ClawMachine::prize2' : not all control paths return a value
+     1>c:\dylius files\test\test\test\main.cpp(727): warning C4715: 'ClawMachine::prize3' : not all control paths return a value
+     1>c:\dylius files\test\test\test\main.cpp(762): warning C4715: 'ClawMachine::prize4' : not all control paths return a value
+     1>c:\dylius files\test\test\test\main.cpp(797): warning C4715: 'ClawMachine::prize5' : not all control paths return a value
+     1>c:\dylius files\test\test\test\main.cpp(832): warning C4715: 'ClawMachine::prize6' : not all control paths return a value
+     1>c:\dylius files\test\test\test\main.cpp(867): warning C4715: 'ClawMachine::prize7' : not all control paths return a value
+     1>c:\dylius files\test\test\test\main.cpp(902): warning C4715: 'ClawMachine::prize8' : not all control paths return a value
        Link:
          c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Dylius Files\Test\test\Debug\test.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\test.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Dylius Files\Test\test\Debug\test.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Dylius Files\Test\test\Debug\test.lib" /MACHINE:X86 Debug\main.obj
+         LINK : C:\Dylius Files\Test\test\Debug\test.exe not found or not built by the last incremental link; performing full link
          test.vcxproj -> C:\Dylius Files\Test\test\Debug\test.exe
        Manifest:
          C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Dylius Files\Test\test\Debug\test.exe;#1" /manifest Debug\test.exe.intermediate.manifest
@@ -32,4 +46,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:13.23
+Time Elapsed 00:00:11.33
